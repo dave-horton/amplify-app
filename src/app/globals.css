@@ -4,6 +4,20 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 1, 4, 29;
+  --background-end-rgb: 1, 4, 50;
 }
+
+
+.amplify-menu-content {
+  --amplify-components-button-color: var(--amplify-colors-secondary-200);
+}
+.amplify-menu-trigger {
+  --amplify-components-button-border-color: var(
+    --amplify-colors-secondary-90
+  );
+  --amplify-components-button-color: var(--amplify-colors-secondary-90);
+}
+
+
+
